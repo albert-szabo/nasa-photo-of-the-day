@@ -43,6 +43,10 @@
   align-items: center;
 }
 
+img {
+  max-width: 95vw;
+}
+
 .description {
   max-width: 75vw;
 }
