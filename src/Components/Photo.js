@@ -6,7 +6,7 @@ const currentPhoto = (props) => {
             <h2>{props.photo.title}</h2>
             <h5>{props.photo.date}</h5>
             <img src={props.photo.hdurl} />
-            <p>{props.photo.explanation}</p>
+            <p className='description'>{props.photo.explanation}</p>
         </div>
     )
 }
