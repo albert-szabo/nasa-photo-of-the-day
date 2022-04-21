@@ -24,7 +24,7 @@ const StyledPhoto = styled.div`
 
     transition: all .3s ease-in-out;
     &:hover {
-        background-color: ${props => props.theme.primaryColor};
+        background-color: ${props => props.theme.quaternaryColor};
         transition: all .3s ease-in-out;
     }
 
